@@ -1,0 +1,35 @@
+{
+    "name": "auvipev/casanova",
+    "description": "A PSR-11 compliant dependency injection container library.",
+    "license": "GPL-3.0",
+    "keywords": [
+        "php7",
+        "psr-compliant",
+        "dependency-injection-library",
+        "secure-by-default"
+    ],
+    "support": {
+        "email": "nenglish6657@gmail.com"
+    },
+    "authors": [
+        {
+            "name": "Nicholas English",
+            "email": "nenglish6657@gmail.com",
+            "homepage": "https://github.com/Auvipev",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "psr/container": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5|^7.1",
+        "vimeo/psalm": "^1.0|^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Casanova\\Container\\": "./src"
+        }
+    }
+}
