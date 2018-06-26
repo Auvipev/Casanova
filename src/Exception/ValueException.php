@@ -10,9 +10,10 @@ use Psr\Container\ContainerExceptionInterface;
 
 /**
  * @class      ValueException.
+ * @extends    Exception.
  * @implements ExceptionInterface.
  * @implements ContainerExceptionInterface.
  */
-class ValueException implements ExceptionInterface, ContainerExceptionInterface
+class ValueException extends Exception implements ExceptionInterface, ContainerExceptionInterface
 {
 }
