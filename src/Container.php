@@ -31,7 +31,7 @@ class Container implements ContainerInterface
      *
      * @codeCoverageIgnore.
      */
-    public function __construct(Architect $architect)
+    public function __construct(ArchitectInterface $architect)
     {
         $this->architect = $architect;
     }
