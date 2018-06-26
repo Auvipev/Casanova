@@ -10,9 +10,10 @@ use Psr\Container\NotFoundExceptionInterface;
 
 /**
  * @class      IdentifierException.
+ * @extends    Exception.
  * @implements ExceptionInterface.
  * @implements NotFoundExceptionInterface.
  */
-class IdentifierException implements ExceptionInterface, NotFoundExceptionInterface
+class IdentifierException extends Exception implements ExceptionInterface, NotFoundExceptionInterface
 {
 }
