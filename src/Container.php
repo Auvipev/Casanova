@@ -56,15 +56,15 @@ class Container implements ContainerInterface
     }
 
     /**
-     * Returns true if the container can return an entry for the given identifier.
-     * Returns false otherwise.
+     * Checks to see if any given identifier exists.
      *
      * has($id) returning true does not mean that get($id) will not throw an exception.
      * It does however mean that get($id) will not throw a Exception\IdentifierException.
      *
      * @param string $id Identifier of the entry to look for.
      *
-     * @return bool
+     * @return bool Returns TRUE if the container can return an entry for the given identifier
+     *              and returns FALSE otherwise.
      */
     public function has($id)
     {
