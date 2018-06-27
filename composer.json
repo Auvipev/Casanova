@@ -1,6 +1,6 @@
 {
     "name": "auvipev/casanova",
-    "description": "A PSR-11 compliant dependency injection container library.",
+    "description": "A PSR-11 compliant dependency injection library.",
     "license": "GPL-3.0",
     "keywords": [
         "php7",
