@@ -8,6 +8,8 @@ namespace Casanova\DependencyInjection;
 
 use Psr\Container\ContainerInterface;
 
+use function sprintf;
+
 /**
  * A PSR-11 compliant container.
  *
