@@ -14,6 +14,6 @@ use Psr\Container\ContainerExceptionInterface;
  * @implements ExceptionInterface.
  * @implements ContainerExceptionInterface.
  */
-class ValueException extends Exception implements ExceptionInterface, ContainerExceptionInterface
+class ValueException extends ContainerException implements ExceptionInterface, ContainerExceptionInterface
 {
 }
