@@ -14,4 +14,18 @@ namespace Casanova\DependencyInjection;
  */
 interface ArchitectInterface
 {
+
+    /**
+     * Initialize a new dependency injection architect.
+     *
+     * This constructor primarily sets up the object storage so we can start injecting
+     * objects into the object stoarge.
+     *
+     * @param array $values An array of values to inject.
+     *
+     * @return void Returns nothing.
+     *
+     * @codeCoverageIgnore.
+     */
+    public function __construct(array $values = array());
 }
